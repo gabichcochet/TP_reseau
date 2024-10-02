@@ -86,33 +86,39 @@ Statistiques Ping pour 142.250.178.142:
 Durée approximative des boucles en millisecondes :
     Minimum = 15ms, Maximum = 16ms, Moyenne = 15ms
 
------------------------------------------------------------------------
-PS C:\Users\fabdj> ping google.com
-
-Envoi d’une requête 'ping' sur google.com [142.250.178.142] avec 32 octets de données :
-Réponse de 142.250.178.142 : octets=32 temps=15 ms TTL=117
-Réponse de 142.250.178.142 : octets=32 temps=16 ms TTL=117
-Réponse de 142.250.178.142 : octets=32 temps=16 ms TTL=117
-Réponse de 142.250.178.142 : octets=32 temps=16 ms TTL=117
-
-Statistiques Ping pour 142.250.178.142:
-    Paquets : envoyés = 4, reçus = 4, perdus = 0 (perte 0%),
-Durée approximative des boucles en millisecondes :
-    Minimum = 15ms, Maximum = 16ms, Moyenne = 15ms
 
 ------------------------------------------------------------------------
 
 ## 🌞 Faire une requête DNS à la main
 
-PS C:\Users\fabdj> nslookup www.google.com
-Serveur :   dns.google
-Address:  8.8.8.8
+nslookup www.thinkerview.com Serveur : bbox.lan Address: 192.168.1.254
 
-Réponse ne faisant pas autorité :
-Nom :    www.google.com
-Addresses:  2a00:1450:4007:80d::2004
-          142.250.75.228
- 
+Réponse ne faisant pas autorité : Nom : www.thinkerview.com Addresses: 2a06:98c1:3121::2 2a06:98c1:3120::2 188.114.96.2 188.114.97.2
+
+PS C:\Users\fabdj> nslookup www.wikileaks.org Serveur : bbox.lan Address: 192.168.1.254
+
+Réponse ne faisant pas autorité : Nom : wikileaks.org Addresses: 51.159.197.136 80.81.248.21 Aliases: www.wikileaks.org
+
+PS C:\Users\fabdj> nslookup www.torproject.org Serveur : bbox.lan Address: 192.168.1.254
+
+Réponse ne faisant pas autorité : Nom : www.torproject.org Addresses: 2a01:4f9:c010:19eb::1 2620:7:6002:0:466:39ff:fe32:e3dd 2a01:4f8:fff0:4f:266:37ff:fe2c:5d19 2620:7:6002:0:466:39ff:fe7f:1826 2a01:4f8:fff0:4f:266:37ff:feae:3bbc 116.202.120.166 116.202.120.165 204.8.99.146 204.8.99.144 95.216.163.36
+## 🌞 Effectue un scan du réseau auquel tu es connecté
+nmap.xml
+##  🌞 Changer d'adresse IP : 
+
+Carte réseau sans fil Wi-Fi :
+
+   Suffixe DNS propre à la connexion. . . : lan
+   Adresse IPv4. . . . . . . . . . . . . .: 192.168.1.28
+   Masque de sous-réseau. . . . . . . . . : 255.255.255.0
+   Passerelle par défaut. . . . . . . . . : 192.168.1.254
+
+Carte réseau sans fil Wi-Fi :
+
+   Suffixe DNS propre à la connexion. . . :
+   Adresse IPv4. . . . . . . . . . . . . .: 192.168.1.50
+   Masque de sous-réseau. . . . . . . . . : 255.255.255.0
+   Passerelle par défaut. . . . . . . . . : 192.168.1.254
 
 
 
