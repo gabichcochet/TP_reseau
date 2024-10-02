@@ -39,12 +39,6 @@ Envoi d’une requête 'ping' sur google.com [142.250.178.142] avec 32 octets de
 
 Statistiques Ping pour 142.250.178.142: Paquets : envoyés = 4, reçus = 4, perdus = 0 (perte 0%), Durée approximative des boucles en millisecondes : Minimum = 15ms, Maximum = 16ms, Moyenne = 15ms
 
-PS C:\Users\fabdj> ping google.com
-
-Envoi d’une requête 'ping' sur google.com [142.250.178.142] avec 32 octets de données : Réponse de 142.250.178.142 : octets=32 temps=15 ms TTL=117 Réponse de 142.250.178.142 : octets=32 temps=16 ms TTL=117 Réponse de 142.250.178.142 : octets=32 temps=16 ms TTL=117 Réponse de 142.250.178.142 : octets=32 temps=16 ms TTL=117
-
-Statistiques Ping pour 142.250.178.142: Paquets : envoyés = 4, reçus = 4, perdus = 0 (perte 0%), Durée approximative des boucles en millisecondes : Minimum = 15ms, Maximum = 16ms, Moyenne = 15ms
-
 🌞 Faire une requête DNS à la main
 PS C:\Users\fabdj> nslookup www.google.com Serveur : dns.google Address: 8.8.8.8
 
