@@ -78,3 +78,15 @@ Addresses:  2a01:4f9:c010:19eb::1
           204.8.99.144
           95.216.163.36
 
+🌞 Effectue un scan du réseau auquel tu es connecté
+nmap.xml
+
+🌞 Changer d'adresse IP :
+Carte réseau sans fil Wi-Fi :
+
+Suffixe DNS propre à la connexion. . . : lan Adresse IPv4. . . . . . . . . . . . . .: 192.168.1.28 Masque de sous-réseau. . . . . . . . . : 255.255.255.0 Passerelle par défaut. . . . . . . . . : 192.168.1.254
+
+Carte réseau sans fil Wi-Fi :
+
+Suffixe DNS propre à la connexion. . . : Adresse IPv4. . . . . . . . . . . . . .: 192.168.1.50 Masque de sous-réseau. . . . . . . . . : 255.255.255.0 Passerelle par défaut. . . . . . . . . : 192.168.1.254
+
