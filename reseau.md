@@ -152,3 +152,5 @@ Carte réseau sans fil Wi-Fi :
    Adresse IPv4. . . . . . . . . . . . . .: 192.168.1.50
    Masque de sous-réseau. . . . . . . . . : 255.255.255.0
    Passerelle par défaut. . . . . . . . . : 192.168.1.254
+
+   .
